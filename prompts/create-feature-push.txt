@@ -1,0 +1,47 @@
+Execute commands directly — do not ask for permission or confirmation to run .sh scripts.
+
+No contextual lookup or dynamic guessing allowed.
+
+📋 Steps
+
+1. Ensure create_feature.sh and git_flow.sh are executable:
+```zsh
+chmod +x create_feature.sh
+chmod +x git_flow.sh
+```
+2. Create the feature files using:
+```zsh
+./create_feature.sh [FEATURE_NAME]
+```
+3. Add the navigation route using AutoRoute to the newly created feature.
+4. Commit and push using:
+```zsh
+./git_flow.sh [FEATURE_NAME] [short-description]
+```
+5. Build the project:
+```zsh
+make b
+```
+📎 Output (strict)
+
+✅ PR URL: [Paste created URL]
+
+📝 Summary:
+
+Created folder: [feature path]
+
+Created files:
+
+[List all created files]
+
+Branch: feature/[FEATURE_NAME]-[description]
+
+❗️Important (Strict Mode ON):
+
+Do not create any extra files or folders.
+
+Do not include explanations, assumptions, comments, or contextual output.
+
+Only use the instructions in this prompt — do not infer or reference anything external.
+
+Treat this as a command executor: simulate the output exactly as if all bash, git, and .sh scripts executed successfully.

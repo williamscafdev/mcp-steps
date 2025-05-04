@@ -1,0 +1,7 @@
+.node-modules
+.npm-debug.log
+.package-lock.json
+/weather/build
+/weather/node_modules
+/products/build
+/products/node_modules
