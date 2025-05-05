@@ -1,0 +1,17 @@
+Prompt sugerido:
+
+Estoy trabajando en un proyecto Laravel que usa Blade, PHP, controladores, rutas, modelos y migraciones. Quiero que analices todo el código y me des sugerencias de mejora tanto en rendimiento como en organización del código.
+
+Además, quiero que puedas recorrer todo el código para identificar:
+
+Todos los controladores exactos con sus métodos
+
+Dónde se encuentran esos archivos
+
+Qué rutas están asociadas a cada controlador
+
+Qué vistas Blade se están usando y desde dónde se llaman
+
+También necesito que señales si hay código duplicado, lógica que podría moverse a servicios, o malas prácticas comunes de Laravel.
+
+Por favor, actúa como un desarrollador experto en Laravel 10+ y PHP 8+.
